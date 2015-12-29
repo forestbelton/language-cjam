@@ -1,7 +1,16 @@
 {
-    "name": "language-cjam",
     "version": "0.0.1",
-    "description": "CJam support for Atom",
+    "name": "language-cjam",
+    "description": "Atom language support for CJam",
+    "homepage": "https://github.com/forestbelton/language-cjam",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/forestbelton/language-cjam.git"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/atom/language-cjam/issues"
+    },
     "engines": {
         "atom": "*",
         "node": "*"
