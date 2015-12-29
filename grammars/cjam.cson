@@ -1,0 +1,27 @@
+'name': 'CJam'
+'scopeName': 'source.cjam'
+'fileTypes': [
+    'cjam'
+]
+'patterns': [
+    {
+        match: '\'.',
+        name: 'punctuation.definition.string.cjam'
+    }
+    {
+        match: '"[^"]*"',
+        name: 'punctuation.definition.string.cjam'
+    }
+    {
+        match: '[0-9]+',
+        name: 'constant.numeric.integer.long.cjam'
+    }
+    {
+        match: 'e#.*$',
+        name: 'comment.cjam'
+    }
+    {
+        match: '[A-Z]',
+        name: 'variable.language.cjam'
+    }
+]

@@ -1,0 +1,9 @@
+{
+    "name": "language-cjam",
+    "version": "0.0.1",
+    "description": "CJam support for Atom",
+    "engines": {
+        "atom": "*",
+        "node": "*"
+    }
+}
